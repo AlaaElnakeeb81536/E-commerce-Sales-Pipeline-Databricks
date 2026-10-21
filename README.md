@@ -31,7 +31,7 @@ The Bronze layer stores the raw data ingested from the source CSV file into Delt
 
 The Silver layer processes the raw Bronze data using PySpark by handling missing values, removing duplicates, correcting data types, and preparing clean, structured data for analytics. The transformed data is stored in Delta tables.
 
-##  Gold Layer Analytics
+## 🥇Gold Layer Analytics
 
 The Gold layer provides four datasets for analyzing:
 
