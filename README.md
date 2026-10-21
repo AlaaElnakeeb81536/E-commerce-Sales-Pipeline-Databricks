@@ -12,7 +12,8 @@ The project follows the **Medallion Architecture (Bronze → Silver → Gold)** 
 
 ## 🏗️Architecture
 
-```Kaggle CSV
+```
+Kaggle CSV
     ↓
 [Bronze Layer]  →  Raw data ingestion → Delta Table
     ↓
