@@ -35,14 +35,16 @@ The Gold layer provides four datasets for analyzing:
 | City Performance | Compare sales performance across cities |
 | Hourly Sales | Identify sales patterns by hour |
 
-##  Tech Stack
+## Tech Stack
 
-- **Databricks Community Edition** — Development and execution environment
-- **Apache PySpark** — Data processing and transformation
-- **Delta Lake** — Storage for processed data
-- **Python** — Pipeline development
-- **Databricks Jobs** — Workflow orchestration
-- **Databricks SQL** — Queries and dashboard visualization
+| Technology | Purpose |
+|---|---|
+| **Databricks Community Edition** | Development and execution environment |
+| **Apache PySpark** | Data processing and transformation |
+| **Delta Lake** | Storage and management of processed data |
+| **Python** | Pipeline development |
+| **Databricks Jobs** | Workflow orchestration and job scheduling |
+| **Databricks SQL** | Data querying and dashboard visualization |
 
 ##  Key Learnings
 
