@@ -70,3 +70,4 @@ project_ecommerce/
     ├── 2_fact_silver.ipynb
     └── 3_fact_gold.ipynb
 ```
+![Uploading image.png…]()
