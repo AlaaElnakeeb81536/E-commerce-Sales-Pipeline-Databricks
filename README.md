@@ -53,9 +53,7 @@ The Gold layer provides four datasets for analyzing:
 | **Databricks Jobs** | Workflow orchestration and job scheduling |
 | **Databricks SQL** | Data querying and dashboard visualization |
 
-## 📂 Project Structure
-
-project_ecommerce/
+## project_ecommerce/
 │
 ├── 1_setup/
 │
