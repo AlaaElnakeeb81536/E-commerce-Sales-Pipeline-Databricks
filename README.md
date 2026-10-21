@@ -53,11 +53,4 @@ The Gold layer provides four datasets for analyzing:
 | **Databricks Jobs** | Workflow orchestration and job scheduling |
 | **Databricks SQL** | Data querying and dashboard visualization |
 
-##  Key Learnings
-
-- Building multi-layer data pipelines using the Medallion Architecture.
-- Processing and transforming data with PySpark.
-- Working with Delta Lake tables.
-- Creating analytical datasets for business intelligence.
-- Orchestrating dependent pipeline tasks in Databricks.
 
