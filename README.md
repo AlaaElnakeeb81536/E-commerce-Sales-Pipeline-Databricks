@@ -53,4 +53,18 @@ The Gold layer provides four datasets for analyzing:
 | **Databricks Jobs** | Workflow orchestration and job scheduling |
 | **Databricks SQL** | Data querying and dashboard visualization |
 
+## 📂 Project Structure
 
+project_ecommerce/
+│
+├── 1_setup/
+│
+├── 2_medallion_processing_dim/
+│   ├── 1_dim_bronze.ipynb
+│   ├── 2_dim_silver.ipynb
+│   └── 3_dim_gold.ipynb
+│
+└── 3_medallion_processing_fact/
+    ├── 1_fact_bronze.ipynb
+    ├── 2_fact_silver.ipynb
+    └── 3_fact_gold.ipynb
