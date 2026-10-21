@@ -23,6 +23,13 @@ Kaggle CSV
     ↓
 [Dashboard]     →  4 Charts in Databricks SQL
 ```
+## 🥉 Bronze Layer – Raw Data Ingestion
+
+The Bronze layer stores the raw data ingested from the source CSV file into Delta tables in its original format, preserving the source data for further processing.
+
+## 🥈 Silver Layer – Data Cleaning & Transformation
+
+The Silver layer processes the raw Bronze data using PySpark by handling missing values, removing duplicates, correcting data types, and preparing clean, structured data for analytics. The transformed data is stored in Delta tables.
 
 ##  Gold Layer Analytics
 
