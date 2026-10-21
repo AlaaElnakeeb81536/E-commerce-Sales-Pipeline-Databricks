@@ -46,16 +46,6 @@ The Gold layer provides four datasets for analyzing:
 - **Databricks Jobs** — Workflow orchestration
 - **Databricks SQL** — Queries and dashboard visualization
 
-##  How to Run
-
-1. Download the source dataset from Kaggle.
-2. Upload the dataset and notebooks to Databricks Community Edition.
-3. Run the Bronze notebook to ingest the raw data.
-4. Run the Silver notebook to clean and transform the data.
-5. Run the Gold notebook to generate analytical tables.
-6. Query the Gold tables and build the dashboard in Databricks SQL.
-7. Configure Databricks Jobs to orchestrate the workflow and notifications.
-
 ##  Key Learnings
 
 - Building multi-layer data pipelines using the Medallion Architecture.
