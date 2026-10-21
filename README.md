@@ -54,6 +54,9 @@ The Gold layer provides four datasets for analyzing:
 | **Databricks SQL** | Data querying and dashboard visualization |
 
 ## project_ecommerce/
+
+```text
+project_ecommerce/
 │
 ├── 1_setup/
 │
@@ -66,3 +69,4 @@ The Gold layer provides four datasets for analyzing:
     ├── 1_fact_bronze.ipynb
     ├── 2_fact_silver.ipynb
     └── 3_fact_gold.ipynb
+```
