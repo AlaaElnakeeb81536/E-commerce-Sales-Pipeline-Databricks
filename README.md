@@ -12,18 +12,15 @@ The project follows the **Medallion Architecture (Bronze → Silver → Gold)** 
 
 ## 🏗️Architecture
 
-```mermaid
-flowchart TD
-    A["Kaggle CSV Dataset"] --> B["Bronze Layer<br/>Raw Data Ingestion<br/>Delta Table"]
-    B --> C["Silver Layer<br/>Cleaning & Transformation<br/>Delta Table"]
-    C --> D["Gold Layer<br/>Aggregations & KPIs<br/> Delta Tables"]
-    D --> E["Databricks SQL Dashboard<br/> Charts"]
-
-    style A fill:#EAF2FF,stroke:#4A78C2,color:#17365D
-    style B fill:#FFF0E6,stroke:#F07836,color:#713600
-    style C fill:#E4F7F5,stroke:#269D96,color:#125B57
-    style D fill:#FFF5D9,stroke:#D9A323,color:#6B4F00
-    style E fill:#F0E9FF,stroke:#8664D9,color:#402878
+```Kaggle CSV
+    ↓
+[Bronze Layer]  →  Raw data ingestion → Delta Table
+    ↓
+[Silver Layer]  →  Cleaning & Transformation → Delta Table
+    ↓
+[Gold Layer]    →  Aggregations & KPIs → 4 Delta Tables
+    ↓
+[Dashboard]     →  4 Charts in Databricks SQL
 ```
 
 ##  Gold Layer Analytics
